@@ -1,5 +1,5 @@
 
-d3.json("http://localhost:8000/data.json").then(function(data) {
+d3.json("data.json").then(function(data) {
   console.log(data);
   data = data;
 
