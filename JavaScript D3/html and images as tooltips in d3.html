@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.27.1"></script>
+    <style type="text/css">
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 33px;
+  padding: 8px;
+  font: 10px sans-serif;
+  background: #ddd;
+  border: solid 1px #aaa;
+  border-radius: 8px;
+  pointer-events: none;
+}
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+var w = 960,
+    h = 500;
+var svg = d3.select("body").append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+svg.append("svg:g")
+    .attr("transform", "translate(480,50)rotate(60)scale(2)")
+  .append("svg:rect")
+    .attr("width", 140)
+    .attr("height", 140)
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseout", mouseout);
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 1e-6);
+function mouseover() {
+  div.transition()
+      .duration(500)
+      .style("opacity", 1);
+}
+function mousemove() {
+  div
+   .html("<span style='color:red'><h1>Tombouctou Region</h1><br><ahref='http://en.wikipedia.org/wiki/Tombouctou_Region'><img src='http://upload.wikimedia.org/wikipedia/commons/b/b3/Mali_Tombouctou.png'></ahref></span> <span style='color:blue'><h2>Mali !!!!!!! </h2></span>")
+      .style("left", (d3.event.pageX - 34) + "px")
+      .style("top", (d3.event.pageY - 12) + "px");
+}
+function mouseout() {
+  div.transition()
+      .duration(500)
+      .style("opacity", 1e-6);
+}
+    </script>
+  </body>
+</html>
