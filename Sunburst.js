@@ -1,6 +1,6 @@
 
 d3.json("data.json").then(function(data) {
-  console.log(data);
+  //console.log(data);
   data = data;
   
   var expensesCount = d3.nest()
