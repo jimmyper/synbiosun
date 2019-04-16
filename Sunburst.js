@@ -7,7 +7,7 @@ d3.json("data.json").then(function(data) {
   .key(function(d) { return d.name; })
   .rollup(function(v) { return v.length; })
   .entries(data);
-console.log(JSON.stringify(expensesCount));
+  console.log(expensesCount);
 
 
   var root = d3.hierarchy(data);
