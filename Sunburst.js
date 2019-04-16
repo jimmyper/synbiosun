@@ -1,5 +1,5 @@
 
-d3.json("data.json").then(function(data) {
+d3.json("data.json").then(function(dahta) {
   //console.log(data);
   data = data;
   
