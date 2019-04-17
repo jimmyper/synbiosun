@@ -1,6 +1,6 @@
 
 d3.json("data.json").then(function(data) {
-  //console.log(data);
+  console.log(data);
   data = data;
   
   var expensesCount = d3.nest()
@@ -10,7 +10,7 @@ d3.json("data.json").then(function(data) {
   console.log(expensesCount);
 
 
-  var root = d3.hierarchy(dagta);
+  var root = d3.hierarchy(data);
   var handleEvents = function( selection ) {
     selection.on('mouseover', function(d) {
       let g = d3.select(this);
