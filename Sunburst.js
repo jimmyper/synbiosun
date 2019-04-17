@@ -6,7 +6,7 @@ d3.json("data.json").then(function(data) {
   var expensesCount = d3.nest()
   .key(function(d) { return d.name; })
   .rollup(function(v) { return v.length; })
-  .entries(data);
+  .entries(data.Design);
   console.log(expensesCount);
 
 
