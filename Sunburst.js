@@ -9,7 +9,7 @@ d3.json("data.json").then(function(data) {
   .entries(data);
 console.log(JSON.stringify(expensesCount));
   
-  var root = d3.hierarchy(data);
+  var root = d3.hierarchy(dhata);
   var handleEvents = function( selection ) {
     selection.on('mouseover', function(d) {
       let g = d3.select(this);
