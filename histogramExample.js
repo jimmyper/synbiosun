@@ -31,7 +31,7 @@ var svg = d3.select('div').append("svg")
 
 
 // load the data
-d3.json("http://localhost:8000/data.json", function(error, data) {
+d3.json("data.json", function(error, data) {
   //console.log(data);
   expenses = data;
 
