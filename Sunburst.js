@@ -1,6 +1,6 @@
 
 d3.json("data.json").then(function(data) {
-  console.log(data);
+  //console.log(data);
   data = data;
 
 
@@ -64,8 +64,6 @@ d3.json("data.json").then(function(data) {
       let g = d3.select(this);
       let n = g.select('.the-node');
       window.open(d.data.link)
-
-
     })
 
 
@@ -76,8 +74,6 @@ d3.json("data.json").then(function(data) {
 
 
   /* SUNBURST LAYOUT */
-
-
 
   var sunburstLayout = d3.partition();
 
@@ -96,7 +92,7 @@ d3.json("data.json").then(function(data) {
 
   sunburstLayout(root);
 
-  var main = d3.select('#partition-sunburst g')
+  var main = d3.select('#partition-sunburst')
 
   var sunburstNodes = main.selectAll('g')
       .data(root.descendants())
@@ -123,8 +119,7 @@ d3.json("data.json").then(function(data) {
       .style('fill', function(d) { return d.data.value < 5 ? "white" : "#1B4F72"}) 
       .text(function(d) { return d.parent ? d.data.name : "" });
 
-  var link = sunburstNodes.append("a") 
-      .attr("xlink:href", function (d) { return "http://www.example.com/flare/" ; });
+
 
   // https://bl.ocks.org/denjn5/f059c1f78f9c39d922b1c208815d18af
   function computeTextRotation(d) {
@@ -139,7 +134,7 @@ d3.json("data.json").then(function(data) {
   var tooltip = d3.select("#div_customContent")
       .style("visibility", "hidden")
       .style("background-color", "white")
-      .style("width", 20)
+      .style("width", 60)
       .style("border", "solid")
       .style("border-width", "1px")
       .style("border-radius", "10px")
