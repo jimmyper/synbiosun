@@ -12,21 +12,25 @@
           {
             "name": "C1",
             "value": 200,
+            "year": 2014,
             "color": "red"
           },
           {
             "name": "C2",
             "value": 200,
+            "year": 2014,
             "color": "red"
           },
           {
             "name": "C3",
             "value": 200,
+            "year": 2014,
             "color": "red"
           },
           {
             "name": "C4",
             "value": 200,
+            "year": 2014,
             "color": "red"
           }
 
@@ -42,20 +46,24 @@
           {
             "name": "C1",
             "value": 200,
+            "year": 2014,
             "color": "yellow"
           },
           {
             "name": "C2",
             "value": 200,
+            "year": 2014,
             "color": "#f7f48b"
           },
           {
             "name": "C3",
+            "year": 2014,
             "value": 200,
             "color": "#f7f48b"
           },
           {
             "name": "C4",
+            "year": 2014,
             "value": 200
           }
 
@@ -69,18 +77,22 @@
 
           {
             "name": "C1",
+            "year": 2014,
             "value": 200
           },
           {
             "name": "C2",
+            "year": 2014,
             "value": 200
           },
           {
             "name": "C3",
+            "year": 2014,
             "value": 200
           },
           {
             "name": "C4",
+            "year": 2014,
             "value": 200
           }
 
@@ -95,24 +107,28 @@
           {
             "name": "Benchling",
             "value": 160,
+            "year": 2011,
             "img": "https://main.bnchcdn.com/static/img/navy_wordmark.svg",
             "link": "https://benchling.com"
           },
           {
             "name": "SnapGene",
             "value": 160,
+            "year": 2012,
             "img": "https://www.snapgene.com/wordpress/wp-content/uploads/2016/06/snapgenelogodark50.png",
             "link": "https://www.snapgene.com/"
           },
           {
             "name": "j5",
             "value": 160,
+            "year": 2016,
             "img": "https://j5.jbei.org/j5manual/images/_nb_imageattachmentsxxxxxx/j5_logo_new0.png",
             "link": "https://j5.jbei.org"
           },
           {
             "name": "Cello",
             "value": 160,
+            "year": 2014,
             "img": "http://cellocad.org/images/logo-cello-text.png",
             "content": "cello.html",
             "link": "http://cellocad.org/"
@@ -120,6 +136,7 @@
           {
             "name": "Raven",
             "value": 160,
+            "year": 2011,
             "img": "http://52.34.11.70/wp-content/uploads/2013/08/research-raven.png",
             "link": "http://cidarlab.org/raven/"
           }

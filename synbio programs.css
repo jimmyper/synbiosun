@@ -12,34 +12,32 @@ body {
 }
 .sunburst {
   border: solid; width: 1;
-  width: 810px;
+  width:1000px;
+  height:1000px;
 }
 /* Create three equal columns that floats next to each other */
 .column {
   text-align: center;
   float: left;
-  width: 500px;
+  width: 50%;
+  height: 500px;
   border: solid; width: 1
-
   
 }
-
 .column2 {
   float: left;
   width: 300px;
   height: 200px;
-  line-height: 200px;
-
-  
+  line-height: 500px;
 
 }
 
 }
-
 .column3 {
   float: left;
-  width: 10%;
-  
+  width: 300px;
+  height: 1000px;
+  line-height: 1000px;
 
 }
 
@@ -60,10 +58,29 @@ body {
 }
 
 #div_customContent {
-  line-height: 20px;
-  height: 100%;
+  line-height: 200px;
+  height: 210%;
   text-align: center;
+}
 
+  .bar{
+    fill: steelblue;
+  }
+
+  .bar:hover{
+    fill: brown;
+  }
+
+  .axis {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
