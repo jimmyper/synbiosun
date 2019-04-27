@@ -2,8 +2,13 @@
 d3.json("data.json").then(function(data) {
   //console.log(data);
   data = data;
-
-
+  
+  var expensesCount = d3.nest()
+  .key(function(d) { return d.name; })
+  .rollup(function(v) { return v.length; })
+  .entries(data);
+console.log(JSON.stringify(expensesCount));
+  
   var root = d3.hierarchy(data);
   var handleEvents = function( selection ) {
     selection.on('mouseover', function(d) {
