@@ -2,112 +2,235 @@
     "name": "A1",
     "value": 1,
     "color": "white",
-    "children": [
-      {
-      "name": "Build",
-      "value": 1,
-      "color": "#f47c7c",
-      "align": "center",
-      "children": [
+    "children": [{
+        "name": "Build",
+        "value": 1,
+        "color": "#f47c7c",
+        "align": "center",
+        "children": [
           {
             "name": "j5",
             "value": 160,
             "img":"https://j5.jbei.org/j5manual/images/_nb_imageattachmentsxxxxxx/j5_logo_new0.png",
+            "content": "j5.html",
             "link":"https://j5.jbei.org"   
           },
           {
             "name": "Aquarium",
             "value": 160,
             "img":"https://imgur.com/DOHnPBr",
+            "content": "Aquarium.html",
             "link": "https://www.aquarium.bio/"    
           },
           {
             "name": "DNALD",
             "value": 160,
             "img": "",
+            "content": "DNALD.html",
             "link": "http://dnald.org/planner/index.html"
           },
           {
             "name": "3DuF",
             "value": 160,
             "img":"https://3duf.org/img/logo.png",
+            "content": "3DuF.html",
             "link": "https://3duf.org/"    
           },
           {
             "name": "Primer3",
             "value": 160,
             "img":"https://imgur.com/TByvAWD",
+            "content": "Primer3.html",
             "link": "http://bioinfo.ut.ee/primer3/"    
           }
-      ]
+        ]
 
       },
       {
-      "name": "Test",
-      "value": 1,
-      "color": "#F1C40F",
-      "children": [
-        {
-          "name": "Bioconductor",
-          "value": 200,
-          "img": "https://www.bioconductor.org/images/logo_bioconductor.gif",
-          "link": "https://www.bioconductor.org/"
-        },
-        {
-          "name": "FlowJo",
-          "value": 200,
-          "img": "https://flowjowebsiteimages.s3-us-west-2.amazonaws.com/media/logo.png",
-          "link": "https://www.flowjo.com/"
-        },
-        {
-          "name": "TASBE tools",
-          "value": 200,
-          "img": "http://synthetic-biology.bbn.com/synbiobbn.png",
-          "link": "http://synthetic-biology.bbn.com/tasbe.html"
-        },
-        {
-          "name": "FlowCal",
-          "value": 200,
-          "img": "",
-          "link": ""
-        }       
-
-      ]
+        "name": "Test",
+        "value": 1,
+        "color": "#F1C40F",
+        "children": [          
+          {
+            "name": "Bioconductor",
+            "value": 200,
+            "year": 2015,
+            "img": "https://www.bioconductor.org/images/logo_bioconductor.gif",
+            "content": "Bioconductor.html",
+            "link": "https://www.bioconductor.org/"
+          },
+          {
+            "name": "FlowJo",
+            "value": 200,
+            "year": 1996,
+            "img": "https://flowjowebsiteimages.s3-us-west-2.amazonaws.com/media/logo.png",
+            "content": "FlowJo.html",
+            "link": "https://www.flowjo.com/"
+          },
+          {
+            "name": "TASBE tools",
+            "value": 200,
+            "year": 2012,
+            "img": "http://synthetic-biology.bbn.com/synbiobbn.png",
+            "content": "TASBE.html",
+            "link": "http://synthetic-biology.bbn.com/tasbe.html"
+          },
+          {
+            "name": "FlowCal",
+            "value": 200,
+            "year": 2016,
+            "img": "",
+            "content": "FlowCal.html",
+            "link": ""
+          }
+        ]
       },
       {
-      "name": "Learn",
-      "value": 1,
-      "color":"#a1de93",
-      "children": [
-        
-        {
-            "name": "C1",
-            "value": 200
+        "name": "Learn",
+        "value": 1,
+        "color": "#a1de93",
+        "children": [
+
+          {
+            "name": "ICE",
+            "value": 50,
+            "year": 2012,
+            "img": "https://public-registry.jbei.org/img/logo.png",
+            "content": "ICE.html",
+            "link": "https://public-registry.jbei.org/login"
           },
           {
-            "name": "C2",
-            "value": 200
+            "name": "SBOL Stack",
+            "value": 50,
+            "year": 2016,
+            "img": "http://wiki.synbiohub.org/images/c/c6/Sbolhub_logo_sl_dark.png",
+            "content": "SbolStack.html",
+            "link": "http://www.sbolstack.org/"
           },
           {
-            "name": "C3",
-            "value": 200
+            "name": "GenBank",
+            "value": 50,
+            "year": 1988,
+            "img": "https://static.pubmed.gov/portal/portal3rc.fcgi/4181515/img/28977",
+            "content": "GenBank.html",
+            "link": "https://www.ncbi.nlm.nih.gov/genbank/"
           },
           {
-            "name": "C4",
-            "value": 200
+            "name": "Registry of Standard Biological Parts",
+            "value": 50,
+            "year": 2003,
+            "img": "http://parts.igem.org/wiki/skins/Igem/images/IGEM_white_letters.png",
+            "content": "Igem.html",
+            "link": "http://parts.igem.org/Main_Page"
+          },
+          {
+            "name": "Viz-a-Brick",
+            "value": 50,
+            "year": 2008,
+            "img": "http://gcat.davidson.edu/vizabrick/logo.png",
+            "content": "VizaBrick.html",
+            "link": "http://gcat.davidson.edu/vizabrick/"
+          },
+          {
+            "name": "BioModels database",
+            "value": 50,
+            "year": 2013,
+            "img": "https://www.ebi.ac.uk/biomodels-static/icons/BioModels_Database_logo_small.png",
+            "content": "BioModels.html",
+            "link": "https://www.ebi.ac.uk/biomodels/"
+          },
+          {
+            "name": "iBioSim",
+            "value": 50,
+            "year": 2009,
+            "img": "",
+            "content": "IBioSim.html",
+            "link": "http://www.async.ece.utah.edu/ibiosim"
+          },
+          {
+            "name": "COPASI",
+            "value": 50,
+            "year": 2006,
+            "img": "http://copasi.org/images/COPASI-light.png",
+            "content": "COPASI.html",
+            "link": "http://copasi.org/"
+          },
+          {
+            "name": "SynBioSS",
+            "value": 50,
+            "year": 2008,
+            "img": "",
+            "content": "SynBioSS.html",
+            "link": "https://sourceforge.net/projects/synbioss/"
+          },
+          {
+            "name": "TinkerCell",
+            "value": 50,
+            "year": 2009,
+            "img": "http://www.tinkercell.com/_/rsrc/1468864445846/config/customLogo.gif",
+            "content": "TinkerCell.html",
+            "link": "http://www.tinkercell.com/"
+          },
+          {
+            "name": "Gro",
+            "value": 50,
+            "year": 2012,
+            "img": "https://imgur.com/Q0K8145",
+            "content": "Gro.html",
+            "link": "https://depts.washington.edu/soslab/gro/index.html"
+          },
+          {
+            "name": "PySCeS",
+            "value": 50,
+            "year": 2004,
+            "img": "http://pysces.sourceforge.net/images/pysces_header.gif",
+            "content": "PySCeS.html",
+            "link": "http://pysces.sourceforge.net/"
+          },
+          {
+            "name": "Morpheus",
+            "value": 50,
+            "year": 2014,
+            "img": "https://imc.zih.tu-dresden.de/wiki/morpheus/lib/exe/fetch.php?media=logo.png",
+            "content": "Morpheus.html",
+            "link": "https://imc.zih.tu-dresden.de/wiki/morpheus/doku.php"
+          },
+          {
+            "name": "CellDesigner",
+            "value": 50,
+            "year": 2008,
+            "img": "http://www.celldesigner.org/images/CellDesigner_banner.gif",
+            "content": "CellDesigner.html",
+            "link": "http://www.celldesigner.org/"
+          },
+          {
+            "name": "D-VASim",
+            "value": 50,
+            "year": 2017,
+            "img": "https://imgur.com/wNN4hiv",
+            "content": "DVASim.html",
+            "link": "http://bda.compute.dtu.dk/tools/d-vasim/"
+          },
+          {
+            "name": "BioPSy",
+            "value": 50,
+            "year": 2015,
+            "img": "https://imgur.com/SqaH03c",
+            "content": "cello.html",
+            "link": "https://github.com/dreal/biology"
           }
 
-      ]
+        ]
       },
       {
-      "name": "Design",
-      "value": 1,
-      "color":"#70a1d7",
-      "children": [
-
-        {
+        "name": "Design",
+        "value": 1,
+        "color": "#70a1d7",
+        "children": [          
+          {
             "name": "Cello",
             "value": 100,
+            "year": 2016,
             "img": "http://cellocad.org/images/logo-cello-text.png",
             "content": "cello.html",
             "link": "http://cellocad.org/"
@@ -115,46 +238,60 @@
           {
             "name": "RBS Calculator",
             "value": 100,
+            "year": 2009,
             "img":"https://www.denovodna.com/software/static/RBS_Calculator_v2_0_logo.png",
+            "content": "RbsCalculator.html",
             "link": "https://www.denovodna.com/software/"    
           },
           {
             "name": "GenoCAD",
             "value": 100,
+            "year": 2009,
             "img":"https://design.genofab.com/template/images/genocad_logo.png",
+            "content": "GenoCAD.html",
             "link": "https://design.genofab.com/" 
           },
           {
             "name": "TeselaGen",
             "value": 100,
+            "year": 2012,
             "img":"https://teselagen.com/wp-content/uploads/2018/04/teselagen_toplogo_white-e1524174511700.png",
+            "content": "TeselaGen.html",
             "link": "https://teselagen.com/" 
           },
           {
             "name": "BioJADE",
             "value": 100,
+            "year": 2004,
             "img":"http://web.mit.edu/jagoler/www/biojade/biojade-text.png",
+            "content": "BioJADE.html",
             "link": "http://web.mit.edu/jagoler/www/biojade/" 
           },
           {
             "name": "De Novo DNA",
             "value": 100,
+            "year": 2016,
             "img":"https://salislab.net/images//Salis_lab_logo_withpic2.png",
+            "content": "DeNovoDNA.html",
             "link": "https://www.denovodna.com:4433/" 
           },
           {
             "name": "Rosetta",
             "value": 100,
+            "year": 2011,
             "img":"http://boinc.bakerlab.org/rosetta/rah/rah_images/top7_alpha_white.png",
+            "content": "Rosetta.html",
             "link": "http://boinc.bakerlab.org/rosetta/" 
           },
           {
             "name": "GLAMM",
             "value": 100,
+            "year": 2011,
             "img":"http://glamm.lbl.gov/tutorial/images/nav.gif",
+            "content": "GLAMM.html",
             "link": "http://glamm.lbl.gov/" 
           }
-      ]
-    },
-  ]
-}
+        ]
+      }
+    ]
+  }
