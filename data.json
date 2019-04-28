@@ -235,7 +235,7 @@
         "children": [          
           {
             "name": "Cello",
-            "value": 100,
+            "value": 50,
             "year": 2016,
             "img": "http://cellocad.org/images/logo-cello-text.png",
             "content": "cello.html",
@@ -243,7 +243,7 @@
           },          
           {
             "name": "RBS Calculator",
-            "value": 100,
+            "value": 50,
             "year": 2009,
             "img":"https://www.denovodna.com/software/static/RBS_Calculator_v2_0_logo.png",
             "content": "RbsCalculator.html",
@@ -251,7 +251,7 @@
           },
           {
             "name": "GenoCAD",
-            "value": 100,
+            "value": 50,
             "year": 2009,
             "img":"https://design.genofab.com/template/images/genocad_logo.png",
             "content": "GenoCAD.html",
@@ -259,7 +259,7 @@
           },
           {
             "name": "TeselaGen",
-            "value": 100,
+            "value": 50,
             "year": 2012,
             "img":"https://teselagen.com/wp-content/uploads/2018/04/teselagen_toplogo_white-e1524174511700.png",
             "content": "TeselaGen.html",
@@ -267,7 +267,7 @@
           },
           {
             "name": "BioJADE",
-            "value": 100,
+            "value": 50,
             "year": 2004,
             "img":"http://web.mit.edu/jagoler/www/biojade/biojade-text.png",
             "content": "BioJADE.html",
@@ -275,7 +275,7 @@
           },
           {
             "name": "De Novo DNA",
-            "value": 100,
+            "value": 50,
             "year": 2016,
             "img":"https://salislab.net/images//Salis_lab_logo_withpic2.png",
             "content": "DeNovoDNA.html",
@@ -291,7 +291,7 @@
           },
           {
             "name": "GLAMM",
-            "value": 100,
+            "value": 50,
             "year": 2011,
             "img":"http://glamm.lbl.gov/tutorial/images/nav.gif",
             "content": "GLAMM.html",
@@ -299,7 +299,7 @@
           },
           {
             "name": "Benchling",
-            "value": 100,
+            "value": 50,
             "year": 2012,
             "img":"https://www.benchling.com/wp-content/uploads/2019/04/Benchling-Preview.png",
             "content": "Benchling.html",
@@ -307,7 +307,7 @@
           },
           {
             "name": "ApE",
-            "value": 100,
+            "value": 50,
             "year": 2011,
             "img":"https://i.postimg.cc/3JStFxkv/ape.png",
             "content": "ApE.html",
@@ -315,7 +315,7 @@
           },
           {
             "name": "VectorEditor",
-            "value": 100,
+            "value": 50,
             "year": 2012,
             "img":"https://camo.githubusercontent.com/611e021151ae76705fda8288f6a8997abe2a96ad/68747470733a2f2f7075626c69632d72656769737472792e6a6265692e6f72672f766563746f72656469746f722f766563746f72656469746f72372e706e67",
             "content": "VectorEditor.html",
@@ -323,7 +323,7 @@
           },
           {
             "name": "GeneDesigner",
-            "value": 100,
+            "value": 50,
             "year": 2006,
             "img":"https://www.atum.bio/assets/brand/logo-black.svg",
             "content": "GeneDesigner.html",
@@ -331,7 +331,7 @@
           },
           {
             "name": "Geneious",
-            "value": 100,
+            "value": 50,
             "year": 2010,
             "img":"https://mlkcvop3gbop.i.optimole.com/FDx0It8gjUo/w:200/h:100/q:55/https://www.geneious.com/academic/wp-content/uploads/sites/7/2018/12/Geneious-Prime-s.png",
             "content": "Geneious.html",
@@ -339,7 +339,7 @@
           },
           {
             "name": "GeneDesign",
-            "value": 100,
+            "value": 50,
             "year": 2006,
             "img":"http://54.235.254.95/gd/img/gdlogo.gif",
             "content": "GeneDesign.html",
@@ -347,7 +347,7 @@
           },
           {
             "name": "Sequence REFINER",
-            "value": 100,
+            "value": 50,
             "year": 2006,
             "img":"https://i.postimg.cc/rwR7drfm/seqrefiner.png",
             "content": "SequenceRefiner.html",
@@ -355,7 +355,7 @@
           },
           {
             "name": "SnapGene Editor",
-            "value": 100,
+            "value": 50,
             "year": 2015,
             "img":"https://www.snapgene.com/wordpress/wp-content/uploads/2016/06/snapgenelogodark50.png",
             "content": "SnapGene.html",
