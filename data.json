@@ -12,6 +12,7 @@
           {
             "name": "j5",
             "value": 160,
+            "year": 2011,
             "img":"https://j5.jbei.org/j5manual/images/_nb_imageattachmentsxxxxxx/j5_logo_new0.png",
             "content": "j5.html",
             "link":"https://j5.jbei.org"   
@@ -19,6 +20,7 @@
           {
             "name": "Aquarium",
             "value": 160,
+            "year": 2017,
             "img":"https://imgur.com/DOHnPBr",
             "content": "Aquarium.html",
             "link": "https://www.aquarium.bio/"    
@@ -26,6 +28,7 @@
           {
             "name": "DNALD",
             "value": 160,
+            "year": 2014,
             "img": "",
             "content": "DNALD.html",
             "link": "http://dnald.org/planner/index.html"
@@ -33,6 +36,7 @@
           {
             "name": "3DuF",
             "value": 160,
+            "year": 2015,
             "img":"https://3duf.org/img/logo.png",
             "content": "3DuF.html",
             "link": "https://3duf.org/"    
@@ -40,6 +44,7 @@
           {
             "name": "Primer3",
             "value": 160,
+            "year": 2007,
             "img":"https://imgur.com/TByvAWD",
             "content": "Primer3.html",
             "link": "http://bioinfo.ut.ee/primer3/"    
