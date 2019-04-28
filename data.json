@@ -51,8 +51,8 @@
           }
         ]
 
-      },
-      {
+        },
+        {
         "name": "Test",
         "value": 1,
         "color": "#F1C40F",
