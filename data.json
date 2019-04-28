@@ -2,145 +2,159 @@
     "name": "A1",
     "value": 1,
     "color": "white",
-    "children": [{
-        "name": "Build",
-        "value": 1,
-        "color": "#f47c7c",
-        "align": "center",
-        "children": [
-
-          {
-            "name": "C1",
-            "value": 200,
-            "year": 2014,
-            "color": "red"
-          },
-          {
-            "name": "C2",
-            "value": 200,
-            "year": 2014,
-            "color": "red"
-          },
-          {
-            "name": "C3",
-            "value": 200,
-            "year": 2014,
-            "color": "red"
-          },
-          {
-            "name": "C4",
-            "value": 200,
-            "year": 2014,
-            "color": "red"
-          }
-
-        ]
-
-      },
+    "children": [
       {
-        "name": "Test",
-        "value": 1,
-        "color": "#F1C40F",
-        "children": [
-
-          {
-            "name": "C1",
-            "value": 200,
-            "year": 2014,
-            "color": "yellow"
-          },
-          {
-            "name": "C2",
-            "value": 200,
-            "year": 2014,
-            "color": "#f7f48b"
-          },
-          {
-            "name": "C3",
-            "year": 2014,
-            "value": 200,
-            "color": "#f7f48b"
-          },
-          {
-            "name": "C4",
-            "year": 2014,
-            "value": 200
-          }
-
-        ]
-      },
-      {
-        "name": "Learn",
-        "value": 1,
-        "color": "#a1de93",
-        "children": [
-
-          {
-            "name": "C1",
-            "year": 2014,
-            "value": 200
-          },
-          {
-            "name": "C2",
-            "year": 2014,
-            "value": 200
-          },
-          {
-            "name": "C3",
-            "year": 2014,
-            "value": 200
-          },
-          {
-            "name": "C4",
-            "year": 2014,
-            "value": 200
-          }
-
-        ]
-      },
-      {
-        "name": "Design",
-        "value": 1,
-        "color": "#70a1d7",
-        "children": [
-
-          {
-            "name": "Benchling",
-            "value": 160,
-            "year": 2011,
-            "img": "https://main.bnchcdn.com/static/img/navy_wordmark.svg",
-            "link": "https://benchling.com"
-          },
-          {
-            "name": "SnapGene",
-            "value": 160,
-            "year": 2012,
-            "img": "https://www.snapgene.com/wordpress/wp-content/uploads/2016/06/snapgenelogodark50.png",
-            "link": "https://www.snapgene.com/"
-          },
+      "name": "Build",
+      "value": 1,
+      "color": "#f47c7c",
+      "align": "center",
+      "children": [
           {
             "name": "j5",
             "value": 160,
-            "year": 2016,
-            "img": "https://j5.jbei.org/j5manual/images/_nb_imageattachmentsxxxxxx/j5_logo_new0.png",
-            "link": "https://j5.jbei.org"
+            "img":"https://j5.jbei.org/j5manual/images/_nb_imageattachmentsxxxxxx/j5_logo_new0.png",
+            "link":"https://j5.jbei.org"   
           },
           {
-            "name": "Cello",
+            "name": "Aquarium",
             "value": 160,
-            "year": 2014,
+            "img":"https://imgur.com/DOHnPBr",
+            "link": "https://www.aquarium.bio/"    
+          },
+          {
+            "name": "DNALD",
+            "value": 160,
+            "img": "",
+            "link": "http://dnald.org/planner/index.html"
+          },
+          {
+            "name": "3DuF",
+            "value": 160,
+            "img":"https://3duf.org/img/logo.png",
+            "link": "https://3duf.org/"    
+          },
+          {
+            "name": "Primer3",
+            "value": 160,
+            "img":"https://imgur.com/TByvAWD",
+            "link": "http://bioinfo.ut.ee/primer3/"    
+          }
+      ]
+
+      },
+      {
+      "name": "Test",
+      "value": 1,
+      "color": "#F1C40F",
+      "children": [
+        {
+          "name": "Bioconductor",
+          "value": 200,
+          "img": "https://www.bioconductor.org/images/logo_bioconductor.gif",
+          "link": "https://www.bioconductor.org/"
+        },
+        {
+          "name": "FlowJo",
+          "value": 200,
+          "img": "https://flowjowebsiteimages.s3-us-west-2.amazonaws.com/media/logo.png",
+          "link": "https://www.flowjo.com/"
+        },
+        {
+          "name": "TASBE tools",
+          "value": 200,
+          "img": "http://synthetic-biology.bbn.com/synbiobbn.png",
+          "link": "http://synthetic-biology.bbn.com/tasbe.html"
+        },
+        {
+          "name": "FlowCal",
+          "value": 200,
+          "img": "",
+          "link": ""
+        }       
+
+      ]
+      },
+      {
+      "name": "Learn",
+      "value": 1,
+      "color":"#a1de93",
+      "children": [
+        
+        {
+            "name": "C1",
+            "value": 200
+          },
+          {
+            "name": "C2",
+            "value": 200
+          },
+          {
+            "name": "C3",
+            "value": 200
+          },
+          {
+            "name": "C4",
+            "value": 200
+          }
+
+      ]
+      },
+      {
+      "name": "Design",
+      "value": 1,
+      "color":"#70a1d7",
+      "children": [
+
+        {
+            "name": "Cello",
+            "value": 100,
             "img": "http://cellocad.org/images/logo-cello-text.png",
             "content": "cello.html",
             "link": "http://cellocad.org/"
+          },          
+          {
+            "name": "RBS Calculator",
+            "value": 100,
+            "img":"https://www.denovodna.com/software/static/RBS_Calculator_v2_0_logo.png",
+            "link": "https://www.denovodna.com/software/"    
           },
           {
-            "name": "Raven",
-            "value": 160,
-            "year": 2011,
-            "img": "http://52.34.11.70/wp-content/uploads/2013/08/research-raven.png",
-            "link": "http://cidarlab.org/raven/"
+            "name": "GenoCAD",
+            "value": 100,
+            "img":"https://design.genofab.com/template/images/genocad_logo.png",
+            "link": "https://design.genofab.com/" 
+          },
+          {
+            "name": "TeselaGen",
+            "value": 100,
+            "img":"https://teselagen.com/wp-content/uploads/2018/04/teselagen_toplogo_white-e1524174511700.png",
+            "link": "https://teselagen.com/" 
+          },
+          {
+            "name": "BioJADE",
+            "value": 100,
+            "img":"http://web.mit.edu/jagoler/www/biojade/biojade-text.png",
+            "link": "http://web.mit.edu/jagoler/www/biojade/" 
+          },
+          {
+            "name": "De Novo DNA",
+            "value": 100,
+            "img":"https://salislab.net/images//Salis_lab_logo_withpic2.png",
+            "link": "https://www.denovodna.com:4433/" 
+          },
+          {
+            "name": "Rosetta",
+            "value": 100,
+            "img":"http://boinc.bakerlab.org/rosetta/rah/rah_images/top7_alpha_white.png",
+            "link": "http://boinc.bakerlab.org/rosetta/" 
+          },
+          {
+            "name": "GLAMM",
+            "value": 100,
+            "img":"http://glamm.lbl.gov/tutorial/images/nav.gif",
+            "link": "http://glamm.lbl.gov/" 
           }
-        ]
-      }
-    ]
-  }
+      ]
+    },
+  ]
+}
