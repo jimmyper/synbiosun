@@ -21,7 +21,7 @@
             "name": "Aquarium",
             "value": 160,
             "year": 2017,
-            "img":"https://imgur.com/DOHnPBr",
+            "img":"https://i.postimg.cc/cJz4B0d4/Aquarium.png",
             "content": "Aquarium.html",
             "link": "https://www.aquarium.bio/"    
           },
@@ -45,7 +45,7 @@
             "name": "Primer3",
             "value": 160,
             "year": 2007,
-            "img":"https://imgur.com/TByvAWD",
+            "img":"https://i.postimg.cc/K8Vd9z3V/Primer3.png",
             "content": "Primer3.html",
             "link": "http://bioinfo.ut.ee/primer3/"    
           }
@@ -296,6 +296,70 @@
             "img":"http://glamm.lbl.gov/tutorial/images/nav.gif",
             "content": "GLAMM.html",
             "link": "http://glamm.lbl.gov/" 
+          },
+          {
+            "name": "Benchling",
+            "value": 100,
+            "year": 2012,
+            "img":"https://www.benchling.com/wp-content/uploads/2019/04/Benchling-Preview.png",
+            "content": "Benchling.html",
+            "link": "https://www.benchling.com/" 
+          },
+          {
+            "name": "ApE",
+            "value": 100,
+            "year": 2011,
+            "img":"https://i.postimg.cc/3JStFxkv/ape.png",
+            "content": "ApE.html",
+            "link": "http://jorgensen.biology.utah.edu/wayned/ape/" 
+          },
+          {
+            "name": "VectorEditor",
+            "value": 100,
+            "year": 2012,
+            "img":"https://camo.githubusercontent.com/611e021151ae76705fda8288f6a8997abe2a96ad/68747470733a2f2f7075626c69632d72656769737472792e6a6265692e6f72672f766563746f72656469746f722f766563746f72656469746f72372e706e67",
+            "content": "VectorEditor.html",
+            "link": "https://public-registry.jbei.org/vectoreditor/" 
+          },
+          {
+            "name": "GeneDesigner",
+            "value": 100,
+            "year": 2006,
+            "img":"https://www.atum.bio/assets/brand/logo-black.svg",
+            "content": "GeneDesigner.html",
+            "link": "https://www.atum.bio/resources/tools/gene-designer" 
+          },
+          {
+            "name": "Geneious",
+            "value": 100,
+            "year": 2010,
+            "img":"https://mlkcvop3gbop.i.optimole.com/FDx0It8gjUo/w:200/h:100/q:55/https://www.geneious.com/academic/wp-content/uploads/sites/7/2018/12/Geneious-Prime-s.png",
+            "content": "Geneious.html",
+            "link": "https://www.geneious.com/academic/features/genome-alignment/" 
+          },
+          {
+            "name": "GeneDesign",
+            "value": 100,
+            "year": 2006,
+            "img":"http://54.235.254.95/gd/img/gdlogo.gif",
+            "content": "GeneDesign.html",
+            "link": "http://54.235.254.95/gd/" 
+          },
+          {
+            "name": "Sequence REFINER",
+            "value": 100,
+            "year": 2006,
+            "img":"https://i.postimg.cc/rwR7drfm/seqrefiner.png",
+            "content": "SequenceRefiner.html",
+            "link": "https://ftp.ncbi.nih.gov/pub/REFINER/" 
+          },
+          {
+            "name": "SnapGene Editor",
+            "value": 100,
+            "year": 2015,
+            "img":"https://www.snapgene.com/wordpress/wp-content/uploads/2016/06/snapgenelogodark50.png",
+            "content": "SnapGene.html",
+            "link": "https://www.snapgene.com/" 
           }
         ]
       }
