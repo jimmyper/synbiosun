@@ -2,7 +2,8 @@
     "name": "A1",
     "value": 1,
     "color": "white",
-    "children": [{
+    "children": [
+      {
         "name": "Build",
         "value": 1,
         "color": "#f47c7c",
