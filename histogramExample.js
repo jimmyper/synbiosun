@@ -105,14 +105,14 @@ console.log("pub");
     for (var i = 0; i < d.values.length; i++){
       nom.push(d.values[i]["name"]+"<br>")
     }
-    console.log(nom)   
+    console.log(nom.join(" "))   
     console.log(d.values[0]["name"])
 
             div.transition()    
                 .duration(200)    
                 .style("opacity", .9);
 
-            div .html(nom)  
+            div .html(nom.join(" "))  
                 .style("left", (d3.event.pageX) + "px")   
                 .style("top", (d3.event.pageY - 28) + "px");  
             })          
