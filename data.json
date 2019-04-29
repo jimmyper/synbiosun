@@ -85,9 +85,9 @@
             "name": "FlowCal",
             "value": 200,
             "year": 2016,
-            "img": "",
+            "img": "https://taborlab.github.io/FlowCal/_static/FlowCal_logo.png",
             "content": "/links/FlowCal.html",
-            "link": ""
+            "link": "https://taborlab.github.io/FlowCal/"
           }
         ]
       },
