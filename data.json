@@ -2,6 +2,7 @@
     "name": "A1",
     "value": 1,
     "color": "white",
+    "content": "about.html",
     "children": [
       {
         "name": "Build",
