@@ -14,7 +14,7 @@
             "value": 160,
             "year": 2011,
             "img":"https://j5.jbei.org/j5manual/images/_nb_imageattachmentsxxxxxx/j5_logo_new0.png",
-            "content": "j5.html",
+            "content": "/links/j5.html",
             "link":"https://j5.jbei.org"   
           },
           {
@@ -22,7 +22,7 @@
             "value": 160,
             "year": 2017,
             "img":"https://i.postimg.cc/cJz4B0d4/Aquarium.png",
-            "content": "Aquarium.html",
+            "content": "/links/Aquarium.html",
             "link": "https://www.aquarium.bio/"    
           },
           {
@@ -30,7 +30,7 @@
             "value": 160,
             "year": 2014,
             "img": "",
-            "content": "DNALD.html",
+            "content": "/links/DNALD.html",
             "link": "http://dnald.org/planner/index.html"
           },
           {
@@ -38,7 +38,7 @@
             "value": 160,
             "year": 2015,
             "img":"https://3duf.org/img/logo.png",
-            "content": "3DuF.html",
+            "content": "/links/3DuF.html",
             "link": "https://3duf.org/"    
           },
           {
@@ -46,7 +46,7 @@
             "value": 160,
             "year": 2007,
             "img":"https://i.postimg.cc/K8Vd9z3V/Primer3.png",
-            "content": "Primer3.html",
+            "content": "/links/Primer3.html",
             "link": "http://bioinfo.ut.ee/primer3/"    
           }
         ]
@@ -62,7 +62,7 @@
             "value": 200,
             "year": 2015,
             "img": "https://www.bioconductor.org/images/logo_bioconductor.gif",
-            "content": "Bioconductor.html",
+            "content": "/links/Bioconductor.html",
             "link": "https://www.bioconductor.org/"
           },
           {
@@ -70,7 +70,7 @@
             "value": 200,
             "year": 1996,
             "img": "https://flowjowebsiteimages.s3-us-west-2.amazonaws.com/media/logo.png",
-            "content": "FlowJo.html",
+            "content": "/links/FlowJo.html",
             "link": "https://www.flowjo.com/"
           },
           {
@@ -78,7 +78,7 @@
             "value": 200,
             "year": 2012,
             "img": "http://synthetic-biology.bbn.com/synbiobbn.png",
-            "content": "TASBE.html",
+            "content": "/links/TASBE.html",
             "link": "http://synthetic-biology.bbn.com/tasbe.html"
           },
           {
@@ -86,7 +86,7 @@
             "value": 200,
             "year": 2016,
             "img": "",
-            "content": "FlowCal.html",
+            "content": "/links/FlowCal.html",
             "link": ""
           }
         ]
@@ -102,7 +102,7 @@
             "value": 50,
             "year": 2012,
             "img": "https://public-registry.jbei.org/img/logo.png",
-            "content": "ICE.html",
+            "content": "/links/ICE.html",
             "link": "https://public-registry.jbei.org/login"
           },
           {
@@ -110,7 +110,7 @@
             "value": 50,
             "year": 2016,
             "img": "http://wiki.synbiohub.org/images/c/c6/Sbolhub_logo_sl_dark.png",
-            "content": "SbolStack.html",
+            "content": "/links/SbolStack.html",
             "link": "http://www.sbolstack.org/"
           },
           {
@@ -118,7 +118,7 @@
             "value": 50,
             "year": 1988,
             "img": "https://static.pubmed.gov/portal/portal3rc.fcgi/4181515/img/28977",
-            "content": "GenBank.html",
+            "content": "/links/GenBank.html",
             "link": "https://www.ncbi.nlm.nih.gov/genbank/"
           },
           {
@@ -126,7 +126,7 @@
             "value": 50,
             "year": 2003,
             "img": "http://parts.igem.org/wiki/skins/Igem/images/IGEM_white_letters.png",
-            "content": "Igem.html",
+            "content": "/links/Igem.html",
             "link": "http://parts.igem.org/Main_Page"
           },
           {
@@ -134,7 +134,7 @@
             "value": 50,
             "year": 2008,
             "img": "http://gcat.davidson.edu/vizabrick/logo.png",
-            "content": "VizaBrick.html",
+            "content": "/links/VizaBrick.html",
             "link": "http://gcat.davidson.edu/vizabrick/"
           },
           {
@@ -142,7 +142,7 @@
             "value": 50,
             "year": 2013,
             "img": "https://www.ebi.ac.uk/biomodels-static/icons/BioModels_Database_logo_small.png",
-            "content": "BioModels.html",
+            "content": "/links/BioModels.html",
             "link": "https://www.ebi.ac.uk/biomodels/"
           },
           {
@@ -150,7 +150,7 @@
             "value": 50,
             "year": 2009,
             "img": "",
-            "content": "IBioSim.html",
+            "content": "/links/IBioSim.html",
             "link": "http://www.async.ece.utah.edu/ibiosim"
           },
           {
@@ -158,7 +158,7 @@
             "value": 50,
             "year": 2006,
             "img": "http://copasi.org/images/COPASI-light.png",
-            "content": "COPASI.html",
+            "content": "/links/COPASI.html",
             "link": "http://copasi.org/"
           },
           {
@@ -166,7 +166,7 @@
             "value": 50,
             "year": 2008,
             "img": "",
-            "content": "SynBioSS.html",
+            "content": "/links/SynBioSS.html",
             "link": "https://sourceforge.net/projects/synbioss/"
           },
           {
@@ -174,7 +174,7 @@
             "value": 50,
             "year": 2009,
             "img": "http://www.tinkercell.com/_/rsrc/1468864445846/config/customLogo.gif",
-            "content": "TinkerCell.html",
+            "content": "/links/TinkerCell.html",
             "link": "http://www.tinkercell.com/"
           },
           {
@@ -182,7 +182,7 @@
             "value": 50,
             "year": 2012,
             "img": "https://imgur.com/Q0K8145",
-            "content": "Gro.html",
+            "content": "/links/Gro.html",
             "link": "https://depts.washington.edu/soslab/gro/index.html"
           },
           {
@@ -190,7 +190,7 @@
             "value": 50,
             "year": 2004,
             "img": "http://pysces.sourceforge.net/images/pysces_header.gif",
-            "content": "PySCeS.html",
+            "content": "/links/PySCeS.html",
             "link": "http://pysces.sourceforge.net/"
           },
           {
@@ -198,7 +198,7 @@
             "value": 50,
             "year": 2014,
             "img": "https://imc.zih.tu-dresden.de/wiki/morpheus/lib/exe/fetch.php?media=logo.png",
-            "content": "Morpheus.html",
+            "content": "/links/Morpheus.html",
             "link": "https://imc.zih.tu-dresden.de/wiki/morpheus/doku.php"
           },
           {
@@ -206,7 +206,7 @@
             "value": 50,
             "year": 2008,
             "img": "http://www.celldesigner.org/images/CellDesigner_banner.gif",
-            "content": "CellDesigner.html",
+            "content": "/links/CellDesigner.html",
             "link": "http://www.celldesigner.org/"
           },
           {
@@ -214,7 +214,7 @@
             "value": 50,
             "year": 2017,
             "img": "https://imgur.com/wNN4hiv",
-            "content": "DVASim.html",
+            "content": "/links/DVASim.html",
             "link": "http://bda.compute.dtu.dk/tools/d-vasim/"
           },
           {
@@ -222,7 +222,7 @@
             "value": 50,
             "year": 2015,
             "img": "https://imgur.com/SqaH03c",
-            "content": "cello.html",
+            "content": "/links/cello.html",
             "link": "https://github.com/dreal/biology"
           }
 
@@ -238,7 +238,7 @@
             "value": 50,
             "year": 2016,
             "img": "http://cellocad.org/images/logo-cello-text.png",
-            "content": "cello.html",
+            "content": "/links/cello.html",
             "link": "http://cellocad.org/"
           },          
           {
@@ -246,7 +246,7 @@
             "value": 50,
             "year": 2009,
             "img":"https://www.denovodna.com/software/static/RBS_Calculator_v2_0_logo.png",
-            "content": "RbsCalculator.html",
+            "content": "/links/RbsCalculator.html",
             "link": "https://www.denovodna.com/software/"    
           },
           {
@@ -254,7 +254,7 @@
             "value": 50,
             "year": 2009,
             "img":"https://design.genofab.com/template/images/genocad_logo.png",
-            "content": "GenoCAD.html",
+            "content": "/links/GenoCAD.html",
             "link": "https://design.genofab.com/" 
           },
           {
@@ -262,7 +262,7 @@
             "value": 50,
             "year": 2012,
             "img":"https://teselagen.com/wp-content/uploads/2018/04/teselagen_toplogo_white-e1524174511700.png",
-            "content": "TeselaGen.html",
+            "content": "/links/TeselaGen.html",
             "link": "https://teselagen.com/" 
           },
           {
@@ -270,7 +270,7 @@
             "value": 50,
             "year": 2004,
             "img":"http://web.mit.edu/jagoler/www/biojade/biojade-text.png",
-            "content": "BioJADE.html",
+            "content": "/links/BioJADE.html",
             "link": "http://web.mit.edu/jagoler/www/biojade/" 
           },
           {
@@ -278,7 +278,7 @@
             "value": 50,
             "year": 2016,
             "img":"https://salislab.net/images//Salis_lab_logo_withpic2.png",
-            "content": "DeNovoDNA.html",
+            "content": "/links/DeNovoDNA.html",
             "link": "https://www.denovodna.com:4433/" 
           },
           {
@@ -286,7 +286,7 @@
             "value": 100,
             "year": 2011,
             "img":"http://boinc.bakerlab.org/rosetta/rah/rah_images/top7_alpha_white.png",
-            "content": "Rosetta.html",
+            "content": "/links/Rosetta.html",
             "link": "http://boinc.bakerlab.org/rosetta/" 
           },
           {
@@ -294,7 +294,7 @@
             "value": 50,
             "year": 2011,
             "img":"http://glamm.lbl.gov/tutorial/images/nav.gif",
-            "content": "GLAMM.html",
+            "content": "/links/GLAMM.html",
             "link": "http://glamm.lbl.gov/" 
           },
           {
@@ -302,7 +302,7 @@
             "value": 50,
             "year": 2012,
             "img":"https://www.benchling.com/wp-content/uploads/2019/04/Benchling-Preview.png",
-            "content": "Benchling.html",
+            "content": "/links/Benchling.html",
             "link": "https://www.benchling.com/" 
           },
           {
@@ -310,7 +310,7 @@
             "value": 50,
             "year": 2011,
             "img":"https://i.postimg.cc/3JStFxkv/ape.png",
-            "content": "ApE.html",
+            "content": "/links/ApE.html",
             "link": "http://jorgensen.biology.utah.edu/wayned/ape/" 
           },
           {
@@ -318,7 +318,7 @@
             "value": 50,
             "year": 2012,
             "img":"https://camo.githubusercontent.com/611e021151ae76705fda8288f6a8997abe2a96ad/68747470733a2f2f7075626c69632d72656769737472792e6a6265692e6f72672f766563746f72656469746f722f766563746f72656469746f72372e706e67",
-            "content": "VectorEditor.html",
+            "content": "/links/VectorEditor.html",
             "link": "https://public-registry.jbei.org/vectoreditor/" 
           },
           {
@@ -326,7 +326,7 @@
             "value": 50,
             "year": 2006,
             "img":"https://www.atum.bio/assets/brand/logo-black.svg",
-            "content": "GeneDesigner.html",
+            "content": "/links/GeneDesigner.html",
             "link": "https://www.atum.bio/resources/tools/gene-designer" 
           },
           {
@@ -334,7 +334,7 @@
             "value": 50,
             "year": 2010,
             "img":"https://mlkcvop3gbop.i.optimole.com/FDx0It8gjUo/w:200/h:100/q:55/https://www.geneious.com/academic/wp-content/uploads/sites/7/2018/12/Geneious-Prime-s.png",
-            "content": "Geneious.html",
+            "content": "/links/Geneious.html",
             "link": "https://www.geneious.com/academic/features/genome-alignment/" 
           },
           {
@@ -342,7 +342,7 @@
             "value": 50,
             "year": 2006,
             "img":"http://54.235.254.95/gd/img/gdlogo.gif",
-            "content": "GeneDesign.html",
+            "content": "/links/GeneDesign.html",
             "link": "http://54.235.254.95/gd/" 
           },
           {
@@ -350,7 +350,7 @@
             "value": 50,
             "year": 2006,
             "img":"https://i.postimg.cc/rwR7drfm/seqrefiner.png",
-            "content": "SequenceRefiner.html",
+            "content": "/links/SequenceRefiner.html",
             "link": "https://ftp.ncbi.nih.gov/pub/REFINER/" 
           },
           {
@@ -358,7 +358,7 @@
             "value": 50,
             "year": 2015,
             "img":"https://www.snapgene.com/wordpress/wp-content/uploads/2016/06/snapgenelogodark50.png",
-            "content": "SnapGene.html",
+            "content": "/links/SnapGene.html",
             "link": "https://www.snapgene.com/" 
           }
         ]
