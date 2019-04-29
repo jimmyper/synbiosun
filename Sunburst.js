@@ -52,7 +52,7 @@ console.log(JSON.stringify(expensesCount));
       g.select('.label')
         .transition().duration(700)
         .style('opacity', "1" )
-        .style("font-size","10px")
+        .style("font-size","8px")
 
      // tooltip2.style("visibility", "hidden")
     })
