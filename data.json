@@ -3,6 +3,7 @@
     "value": 1,
     "color": "white",
     "content": "about.html",
+    "link": "about.html",
     "children": [
       {
         "name": "Build",
