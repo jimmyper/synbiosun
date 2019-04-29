@@ -121,10 +121,13 @@ console.log("pub");
                 .duration(500)    
                 .style("opacity", 0); 
         });
+<<<<<<< HEAD
 
 
 
 });
+=======
+>>>>>>> ee03354dbfc8a8d11c266d5292cb60af4fc1dd78
 
 
 
