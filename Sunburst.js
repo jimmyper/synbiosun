@@ -32,7 +32,8 @@ console.log(JSON.stringify(expensesCount));
 
       tooltip
       .style("visibility", "visible")
-      .html("<embed width=100% height=100% src="+d.data.name+".html"+">");
+      //.html("<embed width=100% height=100% src="+d.data.name+".html"+">");
+      .html("<embed width=100% height=100% src="+d.data.content+">");
 
 
       
