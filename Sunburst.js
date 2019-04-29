@@ -1,4 +1,3 @@
-
 d3.json("data.json").then(function(data) {
   //console.log(data);
   data = data;
@@ -53,7 +52,7 @@ console.log(JSON.stringify(expensesCount));
       g.select('.label')
         .transition().duration(700)
         .style('opacity', "1" )
-        .style("font-size","12px")
+        .style("font-size","10px")
 
      // tooltip2.style("visibility", "hidden")
     })
@@ -90,8 +89,8 @@ console.log(JSON.stringify(expensesCount));
   .startAngle( function(d) { return d.x0 })
   .endAngle(   function(d) { return d.x1 })
 
-  .innerRadius(function(d) { return d.y0 })
-  .outerRadius(function(d) { return d.data.value > 5 ? radius +40 : d.y1 })
+  .innerRadius(function(d) { return d.y0 -1 })
+  .outerRadius(function(d) { return d.data.value > 5 ? radius +60 : d.y1 })
 
   root.sum(d  => d.value);
 
@@ -115,11 +114,24 @@ console.log(JSON.stringify(expensesCount));
 
   var labels = sunburstNodes.append("text") 
       .attr('class', 'label')
-      .style("text-anchor", function(d) { return d.data.align })
+      .style("text-anchor", function(d) {  
+
+      var angle = (d.x0 + d.x1) / Math.PI * 90;
+      if (d.data.value > 5){
+        return  angle > 180? "end" : "start" }
+        else {return "center"}
+      })
       .attr("transform", function(d) {
             return d.data.value < 5 ? "translate(" + arc.centroid(d) + ")":
             "translate(" + arc.centroid(d) + ") rotate(" + computeTextRotation(d) + ")"; })
-      .attr("dx", "0")  
+      .attr("dx", function(d) {
+
+      var angle = (d.x0 + d.x1) / Math.PI * 90;
+      if (d.data.value > 5){
+        return  angle > 180? "30" : "-30" }
+        else {return "0"}
+      })  
+
       .attr("dy", ".5em")
       .style('fill', function(d) { return d.data.value < 5 ? "white" : "#1B4F72"}) 
       .text(function(d) { return d.parent ? d.data.name : "" });
