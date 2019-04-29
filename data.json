@@ -10,6 +10,8 @@
         "value": 1,
         "color": "#f47c7c",
         "align": "center",
+        "content": "build.html",
+        "link": "https://www.researchgate.net/publication/282645077/figure/fig3/AS:282561696813081@1444379366499/The-design-build-test-learn-cycle-of-metabolic-engineering-highlighting-important-parts.png",
         "children": [
           {
             "name": "j5",
@@ -58,6 +60,8 @@
         "name": "Test",
         "value": 1,
         "color": "#F1C40F",
+        "content": "test.html",
+        "link": "https://www.researchgate.net/publication/282645077/figure/fig3/AS:282561696813081@1444379366499/The-design-build-test-learn-cycle-of-metabolic-engineering-highlighting-important-parts.png",
         "children": [          
           {
             "name": "Bioconductor",
@@ -97,6 +101,8 @@
         "name": "Learn",
         "value": 1,
         "color": "#a1de93",
+        "content": "learn.html",
+        "link": "https://www.researchgate.net/publication/282645077/figure/fig3/AS:282561696813081@1444379366499/The-design-build-test-learn-cycle-of-metabolic-engineering-highlighting-important-parts.png",
         "children": [
 
           {
@@ -234,6 +240,8 @@
         "name": "Design",
         "value": 1,
         "color": "#70a1d7",
+        "content": "design.html",
+        "link": "https://www.researchgate.net/publication/282645077/figure/fig3/AS:282561696813081@1444379366499/The-design-build-test-learn-cycle-of-metabolic-engineering-highlighting-important-parts.png",
         "children": [          
           {
             "name": "Cello",
