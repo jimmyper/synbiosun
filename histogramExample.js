@@ -88,7 +88,7 @@ console.log("pub");
       .attr("y", 5)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Frequency");
+      .text("number of publications");
 
 
   // Add bar chart
