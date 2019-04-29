@@ -20,6 +20,11 @@ var yAxis = d3.svg.axis()
     .orient("left")
     .ticks(10);
 
+// Define the div for the tooltip
+var div = d3.select("body").append("div") 
+    .attr("class", "tooltip")       
+    .style("opacity", 0);
+
 
 // add the SVG element
 var svg = d3.select('div').append("svg")
@@ -50,10 +55,19 @@ for (i in expenses["children"])
 console.log(pubyear);
 console.log("pubyear");
 
-  console.log(pubyear)
+   pub = d3.nest()
+  .key(function(d) { return d.year; })
+  .entries(names);
+  for (var item in pub.values){
+    console.log(pub.values[i]['name']);
+  }
+console.log(pub[2004]);
+console.log(pub);
+console.log("pub");
+
   // scale the range of the data
-  x.domain(pubyear.map(function(d) { return Number(d.key); }));
-  y.domain([0, d3.max(pubyear, function(d) { return d.values; })]);
+  x.domain(pub.map(function(d) { return Number(d.key); }));
+  y.domain([0, d3.max(pub, function(d) { return d.values.length; })]);
 
   // add axis
   svg.append("g")
@@ -79,16 +93,34 @@ console.log("pubyear");
 
   // Add bar chart
   svg.selectAll("bar")
-      .data(pubyear)
+      .data(pub)
     .enter().append("rect")
       .attr("class", "bar")
       .attr("x", function(d) { return x(Number(d.key)); })
       .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.values); })
-      .attr("height", function(d) { return height - y(d.values); });
+      .attr("y", function(d) { return y(d.values.length); })
+      .attr("height", function(d) { return height - y(d.values.length)})
+        .on("mouseover", function(d) { 
+      var nom = []
+    for (var i = 0; i < d.values.length; i++){
+      nom.push(d.values[i]["name"]+"<br>")
+    }
+    console.log(nom)   
+    console.log(d.values[0]["name"])
 
+            div.transition()    
+                .duration(200)    
+                .style("opacity", .9);
 
-});
+            div .html(nom)  
+                .style("left", (d3.event.pageX) + "px")   
+                .style("top", (d3.event.pageY - 28) + "px");  
+            })          
+        .on("mouseout", function(d) {   
+            div.transition()    
+                .duration(500)    
+                .style("opacity", 0); 
+        });
 
 
 
