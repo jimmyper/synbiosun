@@ -293,7 +293,7 @@
           },
           {
             "name": "Rosetta",
-            "value": 100,
+            "value": 50,
             "year": 2011,
             "img":"http://boinc.bakerlab.org/rosetta/rah/rah_images/top7_alpha_white.png",
             "content": "Rosetta.html",
